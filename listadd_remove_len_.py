@@ -1,0 +1,10 @@
+college=[]
+print("the list is empty",college)
+college.append("student")
+college.append("teacher")
+college.append("bench")
+print("the list is ",college)
+college.remove("teacher")
+print("the list is ",college)
+college=len(college)
+print("the list is ",college)
